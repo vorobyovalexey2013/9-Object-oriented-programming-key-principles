@@ -10,8 +10,8 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = "true";
         post.birthday = new FormDate();
-        post.birthday.day = "13";
-        post.birthday.month = "6";
-        post.birthday.year = "1999";
+        post.birthday.day = Integer.parseInt("13");
+        post.birthday.month = Integer.parseInt("6");
+        post.birthday.year = Integer.parseInt("1999");
     }
 }
